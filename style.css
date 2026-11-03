@@ -318,3 +318,75 @@ main section > p {
 footer {
     border-top: 1px solid #D5D5D0;
 }
+/* FINAL COLOR CLEANUP */
+
+* {
+    scrollbar-color: #17243D #FFFFFF;
+}
+
+body,
+header,
+main,
+footer,
+section,
+article {
+    background-color: #FFFFFF;
+}
+
+body,
+h1, h2, h3,
+header p,
+main p {
+    color: #111214;
+}
+
+footer,
+.entry-item p {
+    color: #666A70;
+}
+
+header,
+footer,
+.entry-item,
+.last-page-link {
+    border-color: #D5D5D0;
+}
+
+a {
+    color: #17243D;
+    border-color: #17243D;
+}
+
+a:hover {
+    color: #8E2636;
+}
+
+#password-input {
+    color: #111214;
+    border-bottom-color: #17243D;
+}
+
+#password-input::placeholder {
+    color: #888888;
+}
+
+#password-form button {
+    background-color: #17243D;
+    color: #FFFFFF;
+    border-color: #17243D;
+}
+
+#password-form button:hover {
+    background-color: #8E2636;
+    color: #FFFFFF;
+    border-color: #8E2636;
+}
+
+#password-error {
+    color: #8E2636;
+}
+
+#entry-content section p {
+    color: #555A63;
+    border-left-color: #8E2636;
+}
