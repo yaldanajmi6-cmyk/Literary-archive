@@ -256,3 +256,43 @@ footer {
     font-size: 12px;
     margin-top: 12px;
 }
+/* NEW COLOR PALETTE */
+
+body {
+    background-color: #F5F5F2;
+    color: #111214;
+}
+
+a {
+    color: #17243D;
+}
+
+a:hover {
+    color: #8E2636;
+}
+
+header {
+    border-bottom-color: #17243D;
+}
+
+.entry-item {
+    border-bottom-color: #D5D5D0;
+}
+
+#password-form button {
+    border-color: #17243D;
+    color: #17243D;
+}
+
+#password-form button:hover {
+    background-color: #17243D;
+    color: #F5F5F2;
+}
+
+#password-error {
+    color: #8E2636;
+}
+
+.marginalia-button {
+    color: #8E2636;
+}
