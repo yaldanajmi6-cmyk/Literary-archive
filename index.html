@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport"
+content="width=device-width,
+inital-scale=1.0">
+
+    <title>untitled</title>
+	
+	<link rel="stylesheet"
+href="style.css">
+</head>
+
+<body>
+
+    <header>
+	    <p>PRIVATE LITERARY COLLECTION</P>
+	</header>
+	
+	<main>
+	
+	    <section>
+		   
+		   <h1>Some things deserve to be kept.</h1>
+
+    <p>
+        Not everything needs to be said twice.
+    </p>
+
+    <form id="password-form">
+
+        <input
+            type="password"
+            id="password-input"
+            placeholder="Enter password"
+            required
+        >
+
+        <button type="submit">Enter</button>
+
+        <p id="password-error"></p>
+
+    </form>
+	    </section>
+	</main>
+	
+	<footer>
+	    <p>An archive of written words.</p>
+	</footer>
+	<script src="gate.js"></script>
+
+<script>
+    const form = document.getElementById("password-form");
+
+    form.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const enteredPassword =
+            document.getElementById("password-input").value;
+
+        if (enteredPassword === correctPassword) {
+
+            sessionStorage.setItem("archiveAccess", "granted");
+
+            window.location.href = "collection.html";
+
+        } else {
+
+            document.getElementById("password-error")
+                .textContent = "Incorrect password.";
+
+        }
+
+    });
+</script>
+</body>
+</html>
