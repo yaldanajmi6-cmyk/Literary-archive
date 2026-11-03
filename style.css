@@ -6,11 +6,13 @@
     box-sizing: border-box;
 }
 
+html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f2ed;
-    color: #292925;
+    min-height: 100%;
+    background-color: #FFFFFF;
+    color: #111214;
     font-family: Georgia, serif;
     line-height: 1.7;
 }
@@ -22,7 +24,7 @@ body {
 
 header {
     padding: 35px 8%;
-    border-bottom: 1px solid #d8d5ce;
+    border-bottom: 1px solid #D5D5D0;
 }
 
 header p {
@@ -68,14 +70,14 @@ p {
 -------------------- */
 
 a {
-    color: #55584b;
+    color: #17243D;
     text-decoration: none;
-    border-bottom: 1px solid #a5a598;
+    border-bottom: 1px solid #D5D5D0;
     padding-bottom: 3px;
 }
 
 a:hover {
-    color: #9a8060;
+    color: #8E2636;
 }
 
 
@@ -89,13 +91,13 @@ a:hover {
 
 .entry-item {
     padding: 25px 0;
-    border-bottom: 1px solid #d8d5ce;
+    border-bottom: 1px solid #D5D5D0;
 }
 
 .entry-item p {
     font-size: 11px;
     letter-spacing: 2px;
-    color: #77766d;
+    color: #666A70;
 }
 
 .entry-item h3 {
@@ -128,21 +130,22 @@ a:hover {
     margin-top: 35px;
     padding: 10px 18px;
     background: transparent;
-    border: 1px solid #aaa69b;
-    color: #55584b;
+    border: 1px solid #17243D;
+    color: #8E2636;
     font-family: inherit;
     cursor: pointer;
 }
 
 #entry-content button:hover {
-    background-color: #e9e6de;
+    background-color: #17243D;
+    color: #FFFFFF;
 }
 
 #entry-content section p {
     margin-top: 20px;
     padding: 20px;
-    border-left: 2px solid #aaa69b;
-    color: #66645c;
+    border-left: 2px solid #8E2636;
+    color: #555A63;
 }
 
 
@@ -152,8 +155,8 @@ a:hover {
 
 footer {
     padding: 30px 8%;
-    border-top: 1px solid #d8d5ce;
-    color: #77766d;
+    border-top: 1px solid #D5D5D0;
+    color: #666A70;
     font-size: 12px;
 }
 
@@ -185,6 +188,8 @@ footer {
     }
 
 }
+
+
 /* --------------------
    10. Last Page Link
 -------------------- */
@@ -192,7 +197,7 @@ footer {
 .last-page-link {
     margin-top: 70px;
     padding-top: 30px;
-    border-top: 1px solid #d8d5ce;
+    border-top: 1px solid #D5D5D0;
     text-align: right;
 }
 
@@ -200,6 +205,8 @@ footer {
     font-size: 13px;
     letter-spacing: 1px;
 }
+
+
 /* --------------------
    11. Password Form
 -------------------- */
@@ -214,85 +221,40 @@ footer {
     width: 100%;
     padding: 13px 0;
     margin-bottom: 20px;
-
     background: transparent;
     border: none;
-    border-bottom: 1px solid #aaa69b;
-
-    color: #292925;
+    border-bottom: 1px solid #17243D;
+    color: #111214;
     font-family: Georgia, serif;
     font-size: 14px;
-
     outline: none;
 }
 
 #password-input:focus {
-    border-bottom-color: #55584b;
+    border-bottom-color: #8E2636;
 }
 
 #password-input::placeholder {
-    color: #99958b;
+    color: #888888;
 }
 
 #password-form button {
     padding: 10px 22px;
-
     background: transparent;
-    border: 1px solid #aaa69b;
-
-    color: #55584b;
+    border: 1px solid #17243D;
+    color: #17243D;
     font-family: Georgia, serif;
     font-size: 13px;
-
     cursor: pointer;
 }
 
 #password-form button:hover {
-    background: #e9e6de;
+    background: #17243D;
+    color: #FFFFFF;
 }
 
 #password-error {
-    color: #9a5b50;
+    color: #8E2636;
     font-size: 12px;
     margin-top: 12px;
-}
-/* NEW COLOR PALETTE */
-
-body {
-    background-color: #F5F5F2;
-    color: #111214;
-}
-
-a {
-    color: #17243D;
-}
-
-a:hover {
-    color: #8E2636;
-}
-
-header {
-    border-bottom-color: #17243D;
-}
-
-.entry-item {
-    border-bottom-color: #D5D5D0;
-}
-
-#password-form button {
-    border-color: #17243D;
-    color: #17243D;
-}
-
-#password-form button:hover {
-    background-color: #17243D;
-    color: #F5F5F2;
-}
-
-#password-error {
-    color: #8E2636;
-}
-
-.marginalia-button {
-    color: #8E2636;
 }
