@@ -258,3 +258,63 @@ footer {
     font-size: 12px;
     margin-top: 12px;
 }
+/* --------------------
+   12. Editorial Accents
+-------------------- */
+
+/* Header */
+header {
+    border-bottom: 1px solid #17243D;
+}
+
+header p {
+    color: #17243D;
+}
+
+/* Main heading */
+main h1 {
+    color: #17243D;
+}
+
+/* A small wine-red accent */
+main section::before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 3px;
+    background-color: #8E2636;
+    margin-bottom: 28px;
+}
+
+/* Subtitle */
+main section > p {
+    color: #555A63;
+}
+
+/* Password input */
+#password-input {
+    border-bottom: 1px solid #17243D;
+}
+
+#password-input:focus {
+    border-bottom: 2px solid #8E2636;
+}
+
+/* Enter button */
+#password-form button {
+    background-color: #17243D;
+    color: #FFFFFF;
+    border: 1px solid #17243D;
+    transition: background-color 0.2s ease;
+}
+
+#password-form button:hover {
+    background-color: #8E2636;
+    border-color: #8E2636;
+    color: #FFFFFF;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #D5D5D0;
+}
